@@ -589,6 +589,119 @@ img {
   .panel__caption { font-size: 1rem; padding: 0.55rem 0.7rem; }
 }
 
+/* ================= CONTACT SECTION ================= */
+
+.contact {
+  min-height: 75vh;
+  padding: 120px 8% 40px;
+  background: #0b0b0b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact__container {
+  max-width: 750px;
+  width: 100%;
+}
+
+.contact__subtitle {
+  color: #888;
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.contact__title {
+  font-size: clamp(45px, 8vw, 85px);
+  font-weight: 600;
+  letter-spacing: -4px;
+  margin-bottom: 25px;
+}
+
+.contact__title span {
+  color: #777;
+}
+
+.contact__text {
+  color: #999;
+  font-size: 15px;
+  line-height: 1.9;
+  max-width: 550px;
+  margin: 0 auto 45px;
+}
+
+.contact__email {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.contact__label {
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #777;
+}
+
+.contact__email a {
+  color: #fff;
+  font-size: clamp(16px, 3vw, 23px);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact__email a:hover {
+  color: #999;
+}
+
+.contact__socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.contact__socials a {
+  color: #888;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.contact__socials a:hover {
+  color: white;
+  transform: translateY(-3px);
+}
+
+.contact__footer {
+  border-top: 1px solid #222;
+  padding-top: 25px;
+  color: #555;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 90px 6% 30px;
+  }
+
+  .contact__title {
+    letter-spacing: -2px;
+  }
+
+  .contact__socials {
+    gap: 20px;
+  }
+}
+
+
 /* =========================================================
    SMALL PHONES (<= 380px)
    ========================================================= */
